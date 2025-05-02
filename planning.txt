@@ -1,3 +1,15 @@
+MAIN STEPS
+
+Step 1: Setup the project structure
+Step 2: Write the logic to get the computer choice
+Step 3: Write the logic to get the human choice
+Step 4: Declare the players score variables
+Step 5: Write the logic to play a single round
+Step 6: Write the logic to play the entire game
+
+
+PLANNING
+
 # Step 1: Setup the project structure
 
 
@@ -30,15 +42,6 @@ ELSE:
 CHECK RETURN value on console
 
 
-
-
-
-
-
-
-
-
-
 # Step 3: Write the logic to get the human choice
 
 // Subtasks
@@ -66,3 +69,16 @@ RETURN userInput
 CHECK RETURN value on console 
  
 
+# Step 4: Declare the players score variables
+
+// Subtasks
+
+Create two new variables named humanScore and 
+computerScore in the global scope.
+
+Initialize those variables with the value of 0.
+
+// Pseudocode
+
+CREATE variable humanScore in global scope with initial value of 0
+CREATE variable computerScore in global scope initial value of 0

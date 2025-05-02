@@ -18,3 +18,8 @@ function getHumanChoice() {
     return userInput;
 }
 console.log(getHumanChoice());
+
+// Declare the players score variables
+let humanScore = 0;
+let computerScore = 0;
+

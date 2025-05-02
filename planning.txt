@@ -1,24 +1,68 @@
-# Write the logic to get the computer choice
+# Step 1: Setup the project structure
 
-    #Write a function that randomly returns “rock”, “paper” or “scissors”.
 
-    Create a new function named getComputerChoice
-        Hint: The Math.random method returns a random number 
-        that’s greater than or equal to 0 and less than 1. 
-        Think about how you can use this to conditionally return one of the multiple choices.
+# Step 2: Write the logic to get the computer choice
 
-    Write the code so that getComputerChoice will randomly return one of 
-    the following string values: “rock”, “paper” or “scissors”.
+// Subtasks
+
+Create a new function named getComputerChoice
+
+    Hint: The Math.random method returns a random number 
+    that’s greater than or equal to 0 and less than 1. 
+    Think about how you can use this to conditionally return one of the multiple choices.
+
+Write the code so that getComputerChoice will randomly return one of 
+the following string values: “rock”, “paper” or “scissors”.
 
 // Pseudocode
+
+CREATE function getComputerChoice()
 
 CREATE randomInt to store random integer 
 
 IF randomInt equals to 0:
-    Return "rock"
+    RETURN "rock"
 ELSE IF randomInt equals to 1:
-    Return "paper"
-ELSE 
-    Return "scissors"
+    RETURN "paper"
+ELSE:
+    RETURN "scissors"
 
-CHECK return value on console
+CHECK RETURN value on console
+
+
+
+
+
+
+
+
+
+
+
+# Step 3: Write the logic to get the human choice
+
+// Subtasks
+
+Create a new function named getHumanChoice
+
+Write the code so that getHumanChoice will return one of 
+the valid choices depending on what the user inputs.
+
+    Hint: Use the prompt method to get the user’s input.
+    You do not need to handle reprompting if the user 
+    enters an invalid input, as that would require 
+    things we will teach later. For now, just assume 
+    the user will always enter a valid choice.
+
+// Pseudocode
+
+CREATE function getHumanChoice
+
+CREATE variable userInput to store user’s input
+PROMPT the user for input AND store it in userInput
+
+RETURN userInput 
+
+CHECK RETURN value on console 
+ 
+

@@ -12,4 +12,9 @@ function getComputerChoice() {
 }
 console.log(getComputerChoice());
 
-//
+// Write the logic to get the human choice
+function getHumanChoice() {
+    let userInput = prompt("Your selection:");
+    return userInput;
+}
+console.log(getHumanChoice());
